@@ -120,17 +120,6 @@ berka-banking-pipeline/
 
 ---
 
-## 6. Build Steps (Progress Tracker)
-
-- [x] Set up GitHub repo and project structure
-- [x] Create Snowflake database, schemas (bronze/silver/gold), and warehouse
-- [ ] Download Berka data into `data/raw/`
-- [ ] Set up Databricks and write the PySpark ingestion notebook
-- [ ] Load cleaned data into Snowflake bronze layer
-- [ ] Build silver models in dbt (cleaning & typing)
-- [ ] Build gold models in dbt (dimensions, facts, aggregates)
-- [ ] Add dbt tests and documentation
-- [ ] Write up findings and final README polish
 
 ---
 
@@ -161,4 +150,3 @@ CREATE WAREHOUSE IF NOT EXISTS berka_wh
 
 ---
 
-*Built by Rofhiwa Bulannga — a data engineering portfolio project.*
